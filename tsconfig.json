@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                      // Use ES2016 as the transpilation target
+    "module": "esnext",                      // Use ESNext modules (modern imports/exports)
+    "jsx": "react-jsx",                      // Enable React JSX transform
+    "moduleResolution": "node",              // Resolve modules like Node.js
+    "esModuleInterop": true,                 // Enable interop between CommonJS and ES modules
+    "forceConsistentCasingInFileNames": true,// Ensure case sensitivity for file imports
+    "strict": true,                          // Enable all strict TypeScript checks
+    "skipLibCheck": true,                    // Skip checking types of libraries for speed
+    "resolveJsonModule": true                // Allow importing JSON files
+  },
+  "include": ["src/**/*"],                   // Include all files in the src folder
+  "exclude": ["node_modules", "dist"]        // Exclude node_modules and build folder
+}
