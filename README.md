@@ -20,7 +20,7 @@ The component levrage the network service which keep request code DRY and have a
 
 the characters are rendered in row that each hold a character card, when clicking on the name of the character a modal opens using a portal to render it while avoiding stacking context issues.
 
-the application itself could use more optimazation however for the scale of the data set and time and constraints of the excersize I stopped here and only added minimal styles)
+the application itself could use more optimazation however for the scale of the data set and time and constraints of the exercise I stopped here and only added minimal styles)
 
 
 
