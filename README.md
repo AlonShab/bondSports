@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # How to run
 In order to run the application, just run npm instasll and then npm start (regular create-react-app configuratrion).
 
+# SWAPI disclaimer
+while working on the project SWAPI was flaky, same requests worked some didn't later, some functionalty like search didn't work well sometimes (for instance responding with an error for certain filtering values (it also duplicated in the api's playground). some domains worked while others didn't (.dev didn't, .py4e.com did). please keep in mind.
+
 # breackdown of components
 The application is a basic application for searching and viewing SW characters and being able to save and remove favourites. 
 the component are segragated to appWrappers (everything we want our application to use (context, themes, errorboundries, logging services, etc...)) and app (actual logic of application).
